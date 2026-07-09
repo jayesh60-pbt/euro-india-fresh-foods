@@ -12,7 +12,7 @@ function Field({
       <dt className="font-display text-[11px] font-medium uppercase tracking-[0.14em] text-ink-soft">
         {label}
       </dt>
-      <dd className="wrap-break-word text-[15px] leading-relaxed text-ink">
+      <dd className="wrap-break-word text-[15px] font-medium leading-relaxed text-ink">
         {children}
       </dd>
     </div>
@@ -53,11 +53,11 @@ export default function Home() {
                 <Image
                   src="/fssai.svg"
                   alt="FSSAI"
-                  width={72}
-                  height={28}
-                  className="h-7 w-auto object-contain"
+                  width={96}
+                  height={38}
+                  className="h-10 w-auto object-contain"
                 />
-                <span className="font-mono text-[15px] tracking-wide text-ink">
+                <span className="font-mono text-[15px] font-medium tracking-wide text-ink">
                   10013021000759
                 </span>
               </span>
@@ -68,7 +68,7 @@ export default function Home() {
               &amp; mfd.) to Customer Care Division, Toll Free No.{" "}
               <a
                 href="tel:18002330091"
-                className="font-mono text-[14px] tracking-wide text-ink underline decoration-line underline-offset-4 transition-colors hover:decoration-seal-green"
+                className="font-mono text-[14px] font-medium tracking-wide text-ink underline decoration-line underline-offset-4 transition-colors hover:decoration-seal-green"
               >
                 1800&ndash;233&ndash;0091
               </a>
