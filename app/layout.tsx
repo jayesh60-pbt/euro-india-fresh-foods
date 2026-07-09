@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 const siteUrl = "https://www.euroindiafoods.com";
-const title = "Manufacturer Declaration | Euro India Fresh Foods Limited";
+const title = "Euro India Fresh Foods Limited";
 const description =
   "Statutory manufacturer and FSSAI license declaration for Euro India Fresh Foods Limited (J. R. Group) — address, FSSAI license number, and customer care contact details.";
 
