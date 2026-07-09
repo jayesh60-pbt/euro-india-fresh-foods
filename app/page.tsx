@@ -1,39 +1,4 @@
-function FssaiMark() {
-  return (
-    <svg
-      viewBox="0 0 120 48"
-      role="img"
-      aria-label="FSSAI"
-      className="h-7 w-auto"
-    >
-      <path
-        d="M4 40c8-26 20-34 20-34"
-        fill="none"
-        stroke="var(--color-turmeric)"
-        strokeWidth="3"
-        strokeLinecap="round"
-      />
-      <path
-        d="M10 22c4-6 10-9 14-9"
-        fill="none"
-        stroke="var(--color-seal-green)"
-        strokeWidth="3"
-        strokeLinecap="round"
-      />
-      <text
-        x="30"
-        y="34"
-        fontFamily="var(--font-display)"
-        fontStyle="italic"
-        fontWeight="700"
-        fontSize="26"
-        fill="var(--color-seal-green)"
-      >
-        fssai
-      </text>
-    </svg>
-  );
-}
+import Image from "next/image";
 
 function Field({
   label,
@@ -87,7 +52,13 @@ export default function Home() {
 
             <Field label="FSSAI Lic. No.">
               <span className="inline-flex items-center gap-3">
-                <FssaiMark />
+                <Image
+                  src="/fssai.svg"
+                  alt="FSSAI"
+                  width={72}
+                  height={28}
+                  className="h-7 w-auto object-contain"
+                />
                 <span className="font-mono text-[15px] tracking-wide text-ink">
                   10013021000759
                 </span>
