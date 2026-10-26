@@ -44,8 +44,8 @@ export default function Home() {
 
           <div className="mt-8 divide-y divide-line border-y border-line">
             <Field label="Address">
-              A-29/1, Ichchhapore GIDC, Hazira-Magdalla Road,
-              Surat &ndash; 394510, Gujarat, INDIA.
+              Plot no. 10, 11, 14, 15, 16, Block No. 1862, Euro Food Park, NH-48,
+              Village - Degam, Taluka - Chikhli, Dist - Navsari 396530, Gujarat, INDIA.
             </Field>
 
             <Field label="FSSAI Lic. No.">
@@ -58,7 +58,7 @@ export default function Home() {
                   className="h-10 w-auto object-contain"
                 />
                 <span className="font-mono text-[15px] font-medium tracking-wide text-ink">
-                  10013021000759
+                  10726997000387
                 </span>
               </span>
             </Field>
